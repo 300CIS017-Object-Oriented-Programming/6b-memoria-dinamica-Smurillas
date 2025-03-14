@@ -40,6 +40,8 @@ void Administracion::inicializarDatos() {
     CuartoUtil *cuarto3 = new CuartoUtil();
     cout<<"Objeto creado exitosamente";
 
+
+
     //Inicializar cuartos utiles
     vector<CuartoUtil *> cuartosUtiles;
     cuarto1->setPiso(2);

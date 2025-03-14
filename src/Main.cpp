@@ -127,13 +127,6 @@ int main()
     cout << "Dirección de valor: " << p << endl; // Imprime algo como 0x1000
     cout << "Valor a través de p: " << *p << endl; // Imprime 10
 
-    Propietario* persona1 = new Propietario();
-    Propiedad* prop1 = new Propiedad();
-    persona1->setPropiedad(prop1);
-
-    cout << "Dirección de memoria de persona1: " << &persona1 << endl;
-    cout << "Dirección de memoria de prop1: " << prop1 << endl;
-    cout << "Dirección de memoria de la propiedad dentro de persona1: " << persona1->getPropiedad() << endl;
 
     return 0;
 }
