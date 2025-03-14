@@ -122,5 +122,11 @@ int main()
 
     Administracion administracion; // Instanciado con el stack
     menu(administracion);
+    int valor = 10;
+    int *p = &valor;
+    cout << "Dirección de valor: " << p << endl; // Imprime algo como 0x1000
+    cout << "Valor a través de p: " << *p << endl; // Imprime 10
+
+
     return 0;
 }
